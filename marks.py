@@ -32,8 +32,10 @@ def percent_convert(mark):
         percent = 55
     elif mark == "1-":
         percent = 51
-    elif mark == "R" or "r":
+    elif mark == "R":
         percent = 25
+    else:
+        percent = -1
 
     return percent
 
