@@ -8,31 +8,31 @@
 def percent_convert(mark):
     # This function converts a student's mark into a percentage
 
-    if "4+" in mark:
+    if mark == "4+":
         percent = 98
-    elif "4" in mark:
+    elif mark == "4":
         percent = 91
-    elif "4-" in mark:
+    elif mark == "4-":
         percent = 83
-    elif "3+" in mark:
+    elif mark == "3+":
         percent = 78
-    elif "3" in mark:
+    elif mark == "3":
         percent = 75
-    elif "3-" in mark:
+    elif mark == "3-":
         percent = 71
-    elif "2+" in mark:
+    elif mark == "2+":
         percent = 68
-    elif "2" in mark:
+    elif mark == "2":
         percent = 65
-    elif "2-" in mark:
+    elif mark == "2-":
         percent = 61
-    elif "1" in mark:
+    elif mark == "1+":
         percent = 58
-    elif "1" in mark:
+    elif mark == "1":
         percent = 55
-    elif "1" in mark:
+    elif mark == "1-":
         percent = 51
-    elif "R" or "r" in mark:
+    elif mark == "R" or "r":
         percent = 25
 
     return percent
